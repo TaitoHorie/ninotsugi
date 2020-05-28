@@ -2,97 +2,132 @@
   margin: 0;
   padding: 0;
 }
+h1,h2,h3,h4,h5,h6,p {
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  height: auto;
+  width: 100%;
+  overflow-y: scroll;
+}
 
 body {
   font-size: 16px;
-  line-height: 1.7;
   margin: 0 auto;
   padding: 0;
   width: 100%;
-  color: black;
   background: #fbf9f9;
   font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック",Verdana;
-  .container {
-    margin: 0 auto;
+  header {
+    height: 100%;
     width: 100%;
-    height: 100vh;
-    header {
-      height: 200px;
+    .ninotop {
+      height: 250px;
       width: 100%;
       background-image: url("sea.png");
-      background-size: cover;
-      .over {
-        
-        p {
-          padding: 30px;
-          text-align:center;
-          height: 70px;
-          width: 100%;
-          img.example1 {
-            width: 25%;    /* 横幅を割合で指定 */
-           height: auto;  
+      background-size: cover; 
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        text-align:center;
+        img.example1 {
+          width: 40%; 
+          height: auto;  
           }    
         }
       }
+    .navbar {
+      width: 100%;
+      background-color: #ffffff;
+      margin: 0 auto;
+      height: 50px;
+      border-top: 1px solid #3e92ff;
+      border-bottom: 1px solid #3e92ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        height: 48px;
+        width: 700px;
+        }
+        li {
+          padding-top: 10px;
+          text-align: center;
+          span {
+            color: #3e92ff;
+            font-size: 17px;
+            font-weight: normal;
+            letter-spacing: 0.15em;
+            
+          }}
+    
     }
-    
-  .content-menu {
-       
-    border-top: 1px solid #3e92ff;
-    border-bottom: 1px solid #3e92ff;
-    margin: 0 auto;
-    position: static;
-    width: 100%;
-    background: #fbf9f9;
-    text-align: center;
-    
-
-       ul {
-        // display: inline;
-         li {
-          width: auto;
-          color: #3e92ff;
-          list-style: none;
-          // justify-content: space-around;
-          display: inline;
-         }
-        }      }}
-//        }
-//  }
-
-//     <div id="drawer" class="FixedTop">
-//     <a href="#globalNav">menu &amp; search</a>
-//     </div>
-//     <div content-manu>
-//       <ul>
-//         <li>Party</li>
-//         <li>Mood</li>
-//         <li>cat</li>
-//         <li>cool</li>
-//         <li>unique</li>
-//       </ul>
-//     </div>
-//     <div id="content" class="crearfix">
-//      <div id="bread-serach" class="crearfix">
-//      <form name="form1" id="form1" method="get" action="/store/search.php" class="pjax"> 
-// <select name="search_category" id="search_category">
-// <option value="all" selected="">All</option>
-// <option value="artist">Artist</option>
-// <option value="title">Title</option>
-// <option value="label">Label</option>
-// <option value="category">Category</option>
-// </select>
-// <input type="search" name="s" id="srcbox" autocomplete="on" placeholder="Search Text" value="" class="srcbox PJAX"> <!--<input type="submit" name="search_submit" value="検索">-->
-// <a href="#" class="pjax srcbox_btn"><input type="button" name="search_submit" id="srcbox_btn" value="検索"></a>
-// </form>
-//      </div>
-//      <div id="content2" class="crearfix">
-//        <div class=content2__main></div>
-//        <div class=content2__left></div>
-     
-//      <div id="rigt-side" class="crearfix">
-      } 
+  }
+    .contents {
+      width: 100%;
+      background-color:rgb(175, 214, 230);
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      .left-content {
+        height: 1000px;
+        width: 1000px;
+        background-color: #ffffff;
+        float: left;
+      }
+      .right-content {
+        height: 700px;
+        background-color: #f9f9f9;
+        float: left;
+        #sidebtn btntop4 {}
+         strong {
+          margin-top: 0;
+          width: 250px;
+          font: 16px/1.5 "Questrial", "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック";
+          font-weight: normal;
+          color:  #3e92ff;
+          letter-spacing: 0.1em;
+          padding: 0.6em 0 0.5em;
+          border-top: 1px dashed #3e92ff;
+          border-bottom: 1px dashed #3e92ff;
+          
+      }
+      }
+      
+    }
   
+    
+
+
+    
+  
+  
+  
+
+
+
+  }  
+  
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 * {
   box-sizing: border-box;
 }
