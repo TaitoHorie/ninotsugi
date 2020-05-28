@@ -87,23 +87,25 @@ body {
         height: 700px;
         background-color: #f9f9f9;
         float: left;
-        #sidebtn{
+        #sidebtn.btntop4{
           margin-top: 20px;
-         strong {
-          margin-top: 0;
           width: 250px;
-          font: 16px/1.5 "Questrial", "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック";
+          height: 500px;
+         strong {
+          margin-top: 30px;
           font-weight: normal;
           color:  #3e92ff;
           letter-spacing: 0.1em;
           padding: 0.6em 0 0.5em;
           border-top: 1px dashed #3e92ff;
           border-bottom: 1px dashed #3e92ff;
+          ul {
+            margin-top: 30px;
           li {
              margin-top: 30px;
 
           }
-      }
+      }}
       }
     }
     }
@@ -111,50 +113,11 @@ body {
       text-decoration: none;
       color: #3e92ff;
     }
-    
-
-
-    
-    
-  
-    .contents {
-      width: 100%;
-      background-color: skyblue;
-      margin: 0 auto;
-      display: flex;
-      justify-content: center;
-      .left-content {
-        height: 1000px;
-        width: 800px;
-        background-color: #ffffff;
-        float: left;
-      }
-      .right-content {
-        height: 700px;
-        width: 250px;
-        background-color: #f9f9f9;
-        float: left;
-      }
-    }
-  
-    
-  
-  
-  
-
 
 
   }  
   
 
-    
-  
-  
-  
-
-
-
-      
   
 
 .clearfix::after {
