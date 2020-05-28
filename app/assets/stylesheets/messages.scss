@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   margin: 0 auto;
   padding: 0;
-  width: 100%;
+  
   background: #fbf9f9;
   font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック",Verdana;
   header {
@@ -59,11 +59,7 @@ body {
         width: 700px;
         }
         li {
-<<<<<<< HEAD
           padding-top: 10px;
-=======
-          padding-top: 8px;
->>>>>>> 840fc76a7db675efe60373deb4a22735d8aef241
           text-align: center;
           span {
             color: #3e92ff;
@@ -72,7 +68,6 @@ body {
             letter-spacing: 0.15em;
             
           }}
-<<<<<<< HEAD
     
     }
   }
@@ -92,7 +87,8 @@ body {
         height: 700px;
         background-color: #f9f9f9;
         float: left;
-        #sidebtn
+        #sidebtn{
+          margin-top: 20px;
          strong {
           margin-top: 0;
           width: 250px;
@@ -103,19 +99,24 @@ body {
           padding: 0.6em 0 0.5em;
           border-top: 1px dashed #3e92ff;
           border-bottom: 1px dashed #3e92ff;
-          
+          li {
+             margin-top: 30px;
+
+          }
       }
       }
-      
     }
+    }
+    a {
+      text-decoration: none;
+      color: #3e92ff;
+    }
+    
+
+
+    
+    
   
-    
-
-
-=======
-    
-    }
-  }
     .contents {
       width: 100%;
       background-color: skyblue;
@@ -136,7 +137,6 @@ body {
       }
     }
   
->>>>>>> 840fc76a7db675efe60373deb4a22735d8aef241
     
   
   
@@ -144,11 +144,9 @@ body {
 
 
 
-<<<<<<< HEAD
   }  
   
 
-=======
     
   
   
@@ -157,24 +155,18 @@ body {
 
 
       
-  }
+  
 
->>>>>>> 840fc76a7db675efe60373deb4a22735d8aef241
 .clearfix::after {
   content: "";
   clear: both;
   display: block;
 }
-<<<<<<< HEAD
 li {
   list-style: none;
 }
-a {
-  text-decoration: none;
-}
-=======
 
->>>>>>> 840fc76a7db675efe60373deb4a22735d8aef241
+
 * {
   box-sizing: border-box;
 }
